@@ -1,0 +1,22 @@
+.table {
+  display: table;
+  width: 100%;
+  &-header {
+    display: table-header-group;
+    &-row {
+      display: table-row;
+    }
+    &-title {
+      display: table-cell;
+    }
+  }
+  &-body {
+    display: table-row-group;
+    &-row {
+      display: table-row;
+    }
+    &-column {
+      display: table-cell;
+    }
+  }
+}
